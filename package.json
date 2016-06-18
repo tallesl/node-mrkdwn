@@ -1,0 +1,41 @@
+{
+  "author": "Talles L <talleslasmar@gmail.com>",
+  "bin": {
+    "md": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/tallesl/node-mrkdwn/issues"
+  },
+  "dependencies": {
+    "marker": "^0.1.2",
+    "minimisty": "^1.1.1",
+    "opn": "^4.0.2",
+    "rfile": "^1.0.0",
+    "temp": "^0.8.3"
+  },
+  "description": "Renders the given markdown file in a temporary HTML file and fires a browser displaying it.",
+  "devDependencies": {
+    "standard": "^7.1.2"
+  },
+  "directories": {
+    "man": "./man"
+  },
+  "keywords": [
+    "md",
+    "markdown",
+    "preview",
+    "html",
+    "browser"
+  ],
+  "license": "Fair",
+  "name": "mrkdwn",
+  "preferGlobal": "true",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tallesl/node-mrkdwn.git"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "version": "1.0.0"
+}
